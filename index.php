@@ -1,37 +1,37 @@
 <html>
-
 <head>
-<style>
 
-body {background-color: black;}
-h1 {
-  color: green;
+<style>
+.grid-container{
+	display:grid;
+	grid-template-columns: auto auto;
+	background-color: #2196F3;
+	padding:10px;
 }
-#lala{
-	position:absolute;
-	right:225px;
-	top:225px;
+
+.grid-item{
+	background-color: rgba(255, 255, 255, 0.8);
+	border: 1px solid black;
+	text-align:center;
 }
+
+
+
 </style>
 
 
 </head>
 
 <body>
-<h1 >This is my Index Page ;)</h1>
-<hr>
-<img id = "lala" width="300" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTi_ZDh6mXUeOgk_y4XTSJt0d3ZTP0YknXBHJiXZe6TWO5d_nTu&s">
 
+<h1> The basic display</h1>
 
-<a href="test.php"> <h1>test.php</h1></a><br>
-<a href="form.php"> <h1>form.php</h1></a><br>
-<a href="runGet.php"> <h1>runGet.php</h1></a><br>
-<a href="runPost.php"> <h1>runPost.php</h1></a><br>
-<a href="calcForm.php"> <h1>calcForm.php</h1></a><br>
-
-
-
-
+<div class="grid-container">
+<div class = "grid-item">1 <img src="https://i.ytimg.com/vi/Lv4SQy_9VLI/maxresdefault.jpg" width="100px" height="100px"></div>
+<div class="grid-item">2<p>this is so awesome fam</p></div>
+<div class="grid-item">3</div>
+<div class="grid-item">4</div>
+</div>
 
 </body>
 
